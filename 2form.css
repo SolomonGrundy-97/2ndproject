@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER AND NAVBAR STYLES*/
+.container{
+    background-color: rgb(226, 235, 243);
+
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+a{
+    margin-right: 13px;
+    text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+.foc{
+    padding: 5px;
+    border: solid 2px black;
+    text-align: center;
+    margin-top: -7px;
+    box-shadow: 1px 2px 3px black;
+}
+
+
+/*-----------------------------------*/
+
+/*FORM STYLES*/
+.form_section{
+   
+    display: grid;
+    justify-content: center; 
+}
+
+.center_everything{
+    display: grid;
+    justify-content: center;
+    background-color: beige;
+    padding: 40px;
+    margin: 40px 0 10px 0;
+    box-shadow: -5px -5px 7px black;
+    width: 100%;
+}
+
+
+.form_head{
+    margin: 20px;
+}
+
+.stay_inline{
+    display: flex;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.num_round{
+background-color: white;
+padding: 3px;
+height: 30px;
+width: 30px;
+border-radius: 25px;
+border: solid 2px green;
+text-align: center;
+margin-top: -3px;
+margin-right:  5px;
+margin-bottom: 3px;
+}
+
+
+
+
+span{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+input{
+padding: 7px;
+padding-right: 2rem;
+background-color: rgba(237, 221, 221, 0.851);
+border-radius: 4px;
+color: black;
+margin-top: 5px;
+}
+
+select{
+    padding: 5px;
+    padding-right: 10rem;
+background-color: rgba(237, 221, 221, 0.851);
+border-radius: 4px;
+color: black;
+margin-top: 5px;
+
+}
+
+.input_expand {
+    padding: 7px;
+    padding-right: 10rem;
+    margin-bottom: 2rem;
+
+}
+
+#cards_input{
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.extra_expand{
+    padding: 5px 25%;
+    margin-bottom: 2rem;
+}
+
+.green_view{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.bold_text{
+    font-weight: 900;
+}
+
+.native_color{
+    background-color: gray;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    
+}
+
+
+.native{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.whity{
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(254, 254, 254);
+}
+
+.sec_center{
+    display: flex;
+    justify-content: center;
+}
+
+.sec_center{
+display: flex;
+justify-content: center;
+margin-top: 5px;
+font-weight: 500;
+}
+
+
+/*Second section styles*/
+
+.seperation_div{
+    display: flex;
+    justify-content: center;
+align-self: center;
+
+}
+
+.color_blue_section{
+    display: grid;
+    background-color: rgba(24, 26, 194, 0.923);
+color: white;
+padding: 50px;
+margin-bottom: 50px;
+margin-top: 40px;
+height: 93.3%;
+width: 100%;
+box-shadow: 5px 5px 7px black;
+
+}
+
+
+
+li{
+    list-style-type: circle;
+    line-height: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.line_up{
+    font-size: xx-large;
+    font-weight: 50;
+}
+
+.slash_sign{
+    margin-top: 10px;
+}
+
+h3{
+    margin-bottom: 5px;
+
+}
+
+
+.need_20{
+    margin-bottom: 5px;
+}
+
+.shift{
+    margin-bottom: 10px;
+text-decoration: underline;
+color: white;
+}
+
+.boda{
+    border-top: 1px 
+    solid white;
+    
+
+}
+
+.text_alli{
+    text-align: flex-start;
+    margin-top: 15px;
+    margin-block-end: 7px;
+
+}
+
+.roundy{
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    margin: -15px 10px 0 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.divide{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*
+@media(max-width: 57.98px), (min-width: 300px), (max-width: 600), (max-width: 601px)
+{
+  
+.seperation_div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+align-items: center;
+justify-content: center;
+}
+
+.color_blue_section{
+
+    width: 70%;
+
+}
+
+
+}
+*/
+
+
+
+/*--------------------------------------------------*/
+
+/* responsiveness
+    grid-template-columns: minmax(200px, 100px,fr1);
+    width: fit-content;
+    */
+    
+    /*--------------------------------------------------*/
+
+
+    /*
+.image_number{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+background-color: red;
+color: white;
+}
+*/
+
+  
